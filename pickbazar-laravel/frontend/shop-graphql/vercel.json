@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://pickbazarapi.redq.io/graphql",
+      "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51If2QLBEtYX3PXpB9yA4F3gYnzvtZOIaF26aOZUDNzirh4rLplsjJIGz9MfiNh4nRVSD2SC8quz9vgNqrW1SzIqt00nVlKWnOQ"
+    }
+  }
+}

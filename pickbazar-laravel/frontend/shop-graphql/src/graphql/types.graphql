@@ -1,0 +1,23 @@
+query Types($text: String, $orderBy: [QueryTypesOrderByOrderByClause!]) {
+  types(text: $text, orderBy: $orderBy) {
+    id
+    name
+    slug
+    icon
+  }
+}
+
+query Type($id: ID, $slug: String) {
+  type(id: $id, slug: $slug) {
+    id
+    banners {
+      title
+      description
+      image {
+        id
+        original
+        thumbnail
+      }
+    }
+  }
+}
